@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <!--referencias-->
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jogo.css">
+    <!--css-->
+    <style>
+        .dialogobox{
+            border-radius: 30px;
+            text-align: center;
+            width: 20%;
+            height: 30%;
+
+            position: absolute;
+            top: 15%;
+            left: 40%;
+        }
+        .diagPersonagem{
+            background-color: white;
+            box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+            text-align: center;
+            display: block;
+            position: absolute;
+            top: 5%;
+        }
+    </style>
+
+    <title>Khalisto's Life</title>
+</head>
+<body>
+
+    <div class="info">
+        <h1>+info</h1>
+    </div>
+
+    <div class="container">
+        <div class="dialogobox">
+            <div class="diagKhalisto">
+                    <p1><b><i></i></b></p1>
+            </div>
+        </div>
+      
+        
+        <div class="box" id="RUA">
+            <ol id="opcoes">
+                <form method="get" action="jogoNo1/jogoNo1Op1.html">
+                    <button id="opcao1" type="submit">Posso ir visitar minha amiga Amanda, ela é minha melhor amiga e acabou de se mudar</button>
+                </form>
+                <form method="get" action="jogoNo1/jogoNo1Op2.html">
+                    <button id="opcao2" type="submit">Posso ir visitar minha Avó Ingrid, ela tem o melhor bolo de cenoura do mundo</button>
+                </form>
+            </ol>
+        </div>
+    </div>
+    
+    <script src="js/iniciojogo.js"></script>
+</body>
+</html>
