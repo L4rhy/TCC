@@ -33,7 +33,7 @@
           
             
 /* tela*/
-    .box {
+    #fundo {
         background-color: #ffffff85;
         width: 90%;
         height: 80%;
@@ -43,11 +43,6 @@
         margin-top: 3%;
     }
 
-    #fundo{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 98%;
-    }
 /*~~~~ fim tela*/
 
 /*dialogo*/   
@@ -74,7 +69,7 @@
 /*~~~~fim dialogo*/
                 
 /* botões principais*/
-    ol{
+    li{
         list-style: none;   
     }
 
