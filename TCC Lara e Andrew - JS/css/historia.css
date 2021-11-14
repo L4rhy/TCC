@@ -1,0 +1,55 @@
+/*corpo*/
+body{
+    font-family: 'Yomogi', cursive;
+    background-color: pink;
+}
+
+
+    /* aba de mais informações*/
+        .info{
+            background-color: aquamarine;
+            border-bottom-right-radius: 35%;
+            border-bottom-left-radius: 35%;
+            width: 4%;
+            height: 4%;
+            margin-top: -3.5%;
+            margin-right: 1%;
+            text-align: center;
+            font-size: 50%;
+            float: right;
+        }
+        .info:hover{
+            background-color: aquamarine;
+            border-bottom-right-radius: 27%;
+            border-bottom-left-radius: 27%;
+            height: 100px;
+        }
+        .info:hover h1{
+            opacity: 0;
+        }
+    /* fim da aba de mais informações*/
+
+
+    
+    
+    /* tela*/
+        .box {
+            background-color: #ffffff85;
+            width: 90%;
+            height: 80%;
+            margin: auto;
+            padding-top: 35%;
+            margin-top: 3%;
+        }
+    /* fim tela*/
+
+    /* rodapé*/
+        .footer{
+            font-size: 80%;
+            margin-top:2%;
+            line-height: 2px;
+            text-align: center;
+        }
+    /* fim rodapé*/
+
+/*fim corpo*/
