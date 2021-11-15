@@ -36,8 +36,8 @@ var  cenarioFalas ={
         ],
         "numeroDialogos": 4,
         "estados": [1,2],
-        "imagem": "img/RUA.png",
-        "personagem": ""
+        "imagem": "img/rua.jpg",
+        "personagem": ["img/khalisto.png", " "]
         
     },{
         "comentario": "cenario 1",
