@@ -37,7 +37,7 @@ var  cenarioFalas ={
         "numeroDialogos": 4,
         "estados": [1,2],
         "imagem": "img/rua.jpg",
-        "personagem": ["img/khalisto.png", " "]
+        "personagens": ["img/khalisto.png", "img/personagemVazio.png"]
         
     },{
         "comentario": "cenario 1",
@@ -71,16 +71,20 @@ function Fundo(cenarioFalas, estadoAtual, gameState){
     gameState["container"].appendChild(fundo)
     gameState["fundo"] = fundo
     const imagemFundo = document.querySelector("#imagemFundo")
+    imagemFundo.src = cenarioFalas["cenario"][estadoAtual]["imagem"]
+    gameState["fundo"].style.backgrondimage = imagemFundo
     gameState["fundo"].appendChild(imagemFundo)
     gameState["imagemFundo"] = imagemFundo
     const personagens = document.querySelector("#personagens")
-    gameState["fundo"].appendChild(personagens)
+    gameState["imagemFundo"].appendChild(personagens)
     gameState["personagens"] = personagens
-    const personagemDireita = document.querySelector("personagemDireita")
+    /*const personagemDireita = document.querySelector("personagemDireita")
+    personagemDireita.src = cenarioFalas["cenario"][estadoAtual]["personagens"][1]
     gameState["personagens"].appendChild(personagemDireita)
     gameState["personagemDireita"] = personagemDireita
     const personagemEsquerda = document.querySelector("personagemEsquerda")
-    gameState["personagens"].appendChild(personagemEsquerda)
+    personagemEsquerda.src = cenarioFalas["cenario"][estadoAtual]["personagens"][0]
+    gameState["personagens"].appendChild(personagemEsquerda)*/
     gameState["personagemEsquerda"] = personagemEsquerda
     const lista = document.querySelector("#opcoes")
     gameState["fundo"].appendChild(lista)
@@ -136,7 +140,9 @@ function atualizaTexto(gameState, cenarioFalas, i){
 }
 function mudaFundo(cenarioFalas, estadoAtual, gameState){
     
+    console.log(gameState["imagemFundo"])
     gameState["imgemFundo"].src = cenarioFalas['cenario'][estadoAtual]['imagem']
+    gameState["fundo"].style.backgrondimage = gameState["imagemFundo"]
     gameState["personagemDireita"].src = cenarioFalas['cenario'][estadoAtual]['personagem'][0]
     gameState["personagemEsquerda"].src = cenarioFalas['cenario'][estadoAtual]['personagem'][1]
     gameState["botaoOpcao1"].innerHTML = cenarioFalas['cenario'][estadoAtual]['opcoes'][0]
