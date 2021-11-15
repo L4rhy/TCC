@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/jogo.css">
     <!--css-->
     <style>
-        .dialogobox{
+        .dialogoBox{
             border-radius: 30px;
             text-align: center;
             width: 20%;
@@ -21,7 +21,7 @@
             top: 15%;
             left: 40%;
         }
-        .diagPersonagem{
+        .dialogoPersonagem{
             background-color: white;
             box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.2);
             border-radius: 30px;
@@ -36,9 +36,28 @@
 </head>
 <body>
 
+    <div class="info">
+        <h1>+info</h1>
+    </div>
 
     <div id="container">
-        <img id="imagem"></img>
+        <div id="dialogoBox">
+            <div id="dialogoPersonagem">
+                    
+            </div>
+        </div>
+      
+        
+        <div id="fundo">
+            <img id="imagemFundo"></img>
+            <div id="personagens">
+                <img id="PersonagemDireita"></img>
+                <img id="personagemEsquerda"></img>
+            </div>
+            <li id="opcoes">
+                    
+            </li>
+        </div>
     </div>
     
     <script src="js/iniciojogo2.js"></script>

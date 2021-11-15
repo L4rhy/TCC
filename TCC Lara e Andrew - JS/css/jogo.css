@@ -42,7 +42,11 @@
         padding-top: 40%;
         margin-top: 3%;
     }
-
+    #imagemFundo{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 98%;
+    }
 /*~~~~ fim tela*/
 
 /*dialogo*/   

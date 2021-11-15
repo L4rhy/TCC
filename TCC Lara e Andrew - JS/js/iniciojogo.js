@@ -70,16 +70,16 @@ function Fundo(cenarioFalas, estadoAtual, gameState){
     const fundo = document.querySelector("#fundo")
     gameState["container"].appendChild(fundo)
     gameState["fundo"] = fundo
-    const imagemFundo = document.createElement("img")
+    const imagemFundo = document.querySelector("#imagemFundo")
     gameState["fundo"].appendChild(imagemFundo)
     gameState["imagemFundo"] = imagemFundo
     const personagens = document.querySelector("#personagens")
     gameState["fundo"].appendChild(personagens)
     gameState["personagens"] = personagens
-    const personagemDireita = document.createElement("img")
+    const personagemDireita = document.querySelector("personagemDireita")
     gameState["personagens"].appendChild(personagemDireita)
     gameState["personagemDireita"] = personagemDireita
-    const personagemEsquerda = document.createElement("img")
+    const personagemEsquerda = document.querySelector("personagemEsquerda")
     gameState["personagens"].appendChild(personagemEsquerda)
     gameState["personagemEsquerda"] = personagemEsquerda
     const lista = document.querySelector("#opcoes")
@@ -114,7 +114,7 @@ function adicionaBalao(cenarioFalas, gameState) {
     botaoNext.setAttribute("id", "botaoNext")
     botaoNext.innerHTML = "next"
     gameState["containerNovoBalao"].appendChild(botaoNext)
-    gameState["botaoNext"]
+    gameState["botaoNext"] = botaoNext
     
     atualizaTexto(gameState, cenarioFalas, i)
     gameState["containerNovoBalao"].style.top = cenarioFalas['cenario'][0]['falas'][0]['posicao-balao'][0]
