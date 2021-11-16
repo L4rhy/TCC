@@ -189,7 +189,7 @@ var  cenarioFalas ={
                 "posicao-balao": [0, 0]
             }
         ],
-        "opçoes": [
+        "opcoes": [
             "Posso vir morar com minha Avó.",
             "posso passar alguns dias com ela."
         ],
@@ -214,7 +214,6 @@ const personagens = document.querySelector("#personagens")
 fundo.appendChild(personagens)
 const personagemEsquerda = document.querySelector("#personagemEsquerda")
 personagemEsquerda.src = "img/khalisto.png"
-
 personagens.appendChild(personagemEsquerda)
 /*const personagemDireita = document.querySelector("#personagemDireita")
 personagemDireita.src = "img/personagemVazio.png"
@@ -230,7 +229,6 @@ botaoOpcao2.setAttribute("id", "opcao2")
 lista.appendChild(botaoOpcao2)
 
 console.log("CONSTRUIDO O FUNDO")
-mudaFundo(cenarioFalas, estadoAtual)
 
 const caixaDeDialogo = document.querySelector("#caixaDeDialogo")
 fundo.appendChild(caixaDeDialogo)
@@ -247,6 +245,7 @@ botaoNext.innerHTML = "NEXT"
 caixaDeDialogo.appendChild(botaoNext)
 
 
+mudaFundo(cenarioFalas, estadoAtual, i)
 atualizaTexto(cenarioFalas, i)
 console.log("CONSTRUIDO DIALOGO")
 
@@ -257,6 +256,8 @@ function mudaFundo(cenarioFalas, estadoAtual){
     fundo.style.backgroundImage = imagemFundo
     botaoOpcao1.innerHTML = cenarioFalas["cenario"][estadoAtual]["opcoes"][0]
     botaoOpcao2.innerHTML = cenarioFalas["cenario"][estadoAtual]["opcoes"][1]
+    i=0
+    desaparece(cenarioFalas, i)
     console.log("MUDA FUNDO FUNCIONA")
 }
 function atualizaTexto(cenarioFalas, i){
@@ -265,6 +266,7 @@ function atualizaTexto(cenarioFalas, i){
 }
 function desaparece(cenarioFalas, i){
     if(cenarioFalas['cenario'][0]['numeroDialogos'] >= i){
+        caixaDeDialogo.style.opacity = 1
         botaoOpcao1.style.opacity = 0
         botaoOpcao2.style.opacity = 0
     }
