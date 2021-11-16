@@ -69,9 +69,10 @@ const imagemFundo = document.querySelector("#imagemFundo")
 imagemFundo.src = "img/rua.jpg"
 fundo.style.backgroundImage = (imagemFundo)
 const personagens = document.querySelector("#personagens")
-imagemFundo.appendChild(personagens)
+fundo.appendChild(personagens)
 const personagemEsquerda = document.querySelector("#personagemEsquerda")
 personagemEsquerda.src = "img/khalisto.png"
+
 personagens.appendChild(personagemEsquerda)
 /*const personagemDireita = document.querySelector("#personagemDireita")
 personagemDireita.src = "img/personagemVazio.png"

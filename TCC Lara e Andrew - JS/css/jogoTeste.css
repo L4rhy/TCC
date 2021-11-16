@@ -6,27 +6,6 @@
     .container{
         position: relative;
     }
-    
-    #caixaDeDialogo{
-        border-radius: 30px;
-        text-align: center;
-        width: 20%;
-        height: 30%;
-
-        position: relative;
-        top: 15%;
-        left: 40%;
-        margin-bottom: 100%;
-    }
-    #dialogo{
-        background-color: white;
-        box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.2);
-        border-radius: 30px;
-        text-align: center;
-        display: block;
-        position: relative;
-        top: 5%;
-    }
 
 /* aba de mais informações*/
     .info{
@@ -54,7 +33,7 @@
           
             
 /* tela*/
-    #fundo { 
+    #fundo {
         background-color: #ffffff85;
         width: 90%;
         height: 80%;
@@ -62,10 +41,8 @@
         display: block-size;
         padding-top: 40%;
         margin-top: 3%;
-
     }
     #imagemFundo{
-        position: absolute;
         max-width: 100%;
         height: auto;
         display: block;
