@@ -1,4 +1,5 @@
-var  cenarioFalas ={
+
+var  cenarioFalas = {
     "cenario": [
     {
         "comentario": "Primeiro cenario",
@@ -244,11 +245,10 @@ botaoNext.setAttribute("id", "botaoNext")
 botaoNext.innerHTML = "NEXT"
 caixaDeDialogo.appendChild(botaoNext)
 
+console.log("CONSTRUIDO DIALOGO")
 
 mudaFundo(cenarioFalas, estadoAtual, i)
 atualizaTexto(cenarioFalas, i)
-console.log("CONSTRUIDO DIALOGO")
-
 desaparece(cenarioFalas, i)
 
 function mudaFundo(cenarioFalas, estadoAtual){
