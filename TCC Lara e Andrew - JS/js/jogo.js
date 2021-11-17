@@ -246,10 +246,10 @@ botaoNext.innerHTML = "NEXT"
 caixaDeDialogo.appendChild(botaoNext)
 
 console.log("CONSTRUIDO DIALOGO")
-
+// construida tela e dialogo
 mudaFundo(cenarioFalas, estadoAtual, i)
 atualizaTexto(cenarioFalas, i)
-desaparece(cenarioFalas, i)
+desaparece(cenarioFalas,estadoAtual, i)
 
 function mudaFundo(cenarioFalas, estadoAtual){
     imagemFundo.src = cenarioFalas["cenario"][estadoAtual]["imagem"]
@@ -257,20 +257,20 @@ function mudaFundo(cenarioFalas, estadoAtual){
     botaoOpcao1.innerHTML = cenarioFalas["cenario"][estadoAtual]["opcoes"][0]
     botaoOpcao2.innerHTML = cenarioFalas["cenario"][estadoAtual]["opcoes"][1]
     i=0
-    desaparece(cenarioFalas, i)
+    desaparece(cenarioFalas,estadoAtual, i)
     console.log("MUDA FUNDO FUNCIONA")
 }
 function atualizaTexto(cenarioFalas, i){
     texto.innerHTML = `<b><i>${cenarioFalas['cenario'][estadoAtual]['falas'][i]['autor']} - </i></b>${cenarioFalas['cenario'][estadoAtual]['falas'][i]['frase']}`
     console.log("ATUALIZA TEXTO FUNCIONA")
 }
-function desaparece(cenarioFalas, i){
-    if(cenarioFalas['cenario'][0]['numeroDialogos'] >= i){
+function desaparece(cenarioFalas, estadoAtual, i){
+    if(cenarioFalas['cenario'][estadoAtual]['numeroDialogos'] >= i){
         caixaDeDialogo.style.opacity = 1
         botaoOpcao1.style.opacity = 0
         botaoOpcao2.style.opacity = 0
     }
-    if(cenarioFalas['cenario'][0]['numeroDialogos'] < i){
+    if(cenarioFalas['cenario'][estadoAtual]['numeroDialogos'] < i){
         caixaDeDialogo.style.opacity = 0
         botaoOpcao1.style.opacity = 1
         botaoOpcao2.style.opacity = 1
@@ -279,8 +279,8 @@ console.log("DESAPARECE FUNCIONA")
 }
 botaoNext.addEventListener("click", function(){
     i++
+    desaparece(cenarioFalas,estadoAtual, i)
     atualizaTexto(cenarioFalas, i)
-    desaparece(cenarioFalas, i)
     console.log("BOTAO NEXT FUNCIONA")
 })
 botaoOpcao1.addEventListener("click", function(){
