@@ -116,7 +116,7 @@ var  cenarioFalas = {
                 "autor": "Khalisto",
                 "frase": "Eu realmente gosto das duas opções.",
                 "posicao-balao": [0, 0]
-            },
+            }
         ],
         "opcoes": [
             "Posso vir morar com Amanda.",
@@ -196,6 +196,164 @@ var  cenarioFalas = {
         ],
         "numeroDialogos": 11,
         "estados": [5,6],
+        "imagem": "img/casaAvo.png",
+        "personagem": ""
+    },{
+        "comentario": "cenario 3",
+        "falas": [
+            {
+                "autor": "Khalisto",
+                "frase": "Estou morando com Amanda a algumas semanas, nossa convivência é na maior parte do tempo divertida e pacífica",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "mas existem momentos, momentos em que ela deixa as roupas jogadas pela sala",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "em que ela reclama porque deixo os copos sujos na pia.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Nós brigamos, apenas por coisas bobas mas brigamos.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Comecei a duvidar alguns dias atrás se deveria mesmo continuar aqui, achei um lugar para ficar e chamar de meu.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Por um lado acho que não sai de um lugar pelas brigas, para vir a outro lugar onde também tem briga todo dia.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Por outro lado, nós duas estamos agindo feito crianças e eu deveria conversar e resolver.",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "Posso ir morar sozinha e deixar a Amanda.",
+            "Posso esperar ela voltar e conversar sobre para nos resolvermos."
+        ],
+        "numeroDialogos": 6,
+        "estados": [7,8],
+        "imagem": "img/casaAmanda.png",
+        "personagem": ""
+    },{
+        "comentario": "cenario 4",
+        "falas": [
+            {
+                "autor": "Khalisto",
+                "frase": "Passei alguns dias com Amanda, me organizei e hoje estou indo para minha própria casa, acabei de me despedir de Amanda.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Mas estou com saudades de alguns membros da minha família.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Quero ir visitar minha avó ou minha irmãzinha antes de me mudar.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Não posso fazer os dois hoje e amanha vou estar na minha casa.",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "Posso ir ver minha avó  ingrid.",
+            "Posso ir ver minha irmã Maria."
+        ],
+        "numeroDialogos": 3,
+        "estados": [9,10],
+        "imagem": "img/casaAmanda.png",
+        "personagem": ""
+    },{
+        "comentario": "cenario 5",
+        "falas": [
+            {
+                "autor": "Ingrid",
+                "frase": "Está sendo muito bom ter você aqui essas semanas ká.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Está sendo bom para mim também vó, ta se arrumando para sair?",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Ingrid",
+                "frase": "Sim vou ver seus pais, quer vir comigo?",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Não acho uma boa ideia vó.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Ingird",
+                "frase": "Você vai poder ver a Maria, ela não para de perguntar de você por mensagem.",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "Posso ir a casa dos meus pais ver minha irmã.",
+            "Posso ficar aqui em casa."
+        ],
+        "numeroDialogos": 4,
+        "estados": [11,12],
+        "imagem": "img/casaAvo.png",
+        "personagem": ""
+    },{
+        "comentario": "cenario 6",
+        "falas": [
+            {
+                "autor": "Khalisto",
+                "frase": "Passei alguns dias com minha avó e agora estou arrumando minhas coisas para minha própria casa.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Ela está neste momento com meus pais e minha irmã.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Esses dias com ela foram muito bons, amo minha vó.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Foi um descanso necessário de toda a gritaria que eu tinha com minha mãe.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Agora estou organizando minhas coisas para finalmente ter minha própria casa.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Enquanto me organizo para me mudar recebo uma ligação da minha mãe.",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "Posso atender.",
+            "Posso ignorar."
+        ],
+        "numeroDialogos": 4,
+        "estados": [13,14],
         "imagem": "img/casaAvo.png",
         "personagem": ""
     }
