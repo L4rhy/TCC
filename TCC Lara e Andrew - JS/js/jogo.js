@@ -42,7 +42,9 @@ var  cenarioFalas = {
         "numeroDialogos": 4,
         "estados": [1,2],
         "imagem": "img/rua.jpg",
-        "personagem": ["img/khalisto.png", " "]
+        "personagem": ["img/khalisto.png", "img/amanda.png"]
+        ,
+        "pesonagemOpacidade" : 0
         
     },{
         "comentario": "cenario 1",
@@ -124,8 +126,9 @@ var  cenarioFalas = {
         ],
         "numeroDialogos": 13,
         "estados": [3,4],
-        "imagem": " ",
-        "personagem": ""
+        "imagem": "img/casaAmanda",
+        "personagem": ["img/khalisto.png", "img/amanda.png"],
+        "pesonagemOpacidade" : 1
     },{
         "comentario": "cenario 2",
         "falas": [
@@ -197,7 +200,8 @@ var  cenarioFalas = {
         "numeroDialogos": 11,
         "estados": [5,6],
         "imagem": "img/casaAvo.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/ingrid.png"],
+        "pesonagemOpacidade" : 1
     },{
         "comentario": "cenario 3",
         "falas": [
@@ -244,7 +248,8 @@ var  cenarioFalas = {
         "numeroDialogos": 6,
         "estados": [7,8],
         "imagem": "img/casaAmanda.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/amanda.png"],
+        "pesonagemOpacidade" : 0
     },{
         "comentario": "cenario 4",
         "falas": [
@@ -276,7 +281,8 @@ var  cenarioFalas = {
         "numeroDialogos": 3,
         "estados": [9,10],
         "imagem": "img/casaAmanda.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/amanda.png"],
+        "pesonagemOpacidade" : 0
     },{
         "comentario": "cenario 5",
         "falas": [
@@ -313,7 +319,8 @@ var  cenarioFalas = {
         "numeroDialogos": 4,
         "estados": [11,12],
         "imagem": "img/casaAvo.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/ingrid.png"],
+        "pesonagemOpacidade" : 1
     },{
         "comentario": "cenario 6",
         "falas": [
@@ -355,7 +362,8 @@ var  cenarioFalas = {
         "numeroDialogos": 4,
         "estados": [13,14],
         "imagem": "img/casaAvo.png",
-        "personagem": ""
+        "personagem":["img/khalisto.png", "img/ingrid.png"],
+        "pesonagemOpacidade" : 0
     }
     
 ]
@@ -374,9 +382,10 @@ fundo.appendChild(personagens)
 const personagemEsquerda = document.querySelector("#personagemEsquerda")
 personagemEsquerda.src = "img/khalisto.png"
 personagens.appendChild(personagemEsquerda)
-/*const personagemDireita = document.querySelector("#personagemDireita")
-personagemDireita.src = "img/personagemVazio.png"
-personagens.appendChild(personagemDireita)*/
+const personagemDireita = document.querySelector("#personagemDireita")
+personagemDireita.src = "img/khalisto.png"
+personagemDireita.style.opacity = 0
+personagens.appendChild(personagemDireita)
 const lista = document.querySelector("#opcoes")
 fundo.appendChild(lista)
 
@@ -400,8 +409,8 @@ dialogo.appendChild(texto)
 
 const botaoNext = document.createElement("button")
 botaoNext.setAttribute("id", "botaoNext")
-botaoNext.innerHTML = "NEXT"
-caixaDeDialogo.appendChild(botaoNext)
+botaoNext.innerHTML = ">"
+dialogo.appendChild(botaoNext)
 
 console.log("CONSTRUIDO DIALOGO")
 
@@ -412,6 +421,9 @@ desaparece(cenarioFalas, i)
 function mudaFundo(cenarioFalas, estadoAtual){
     imagemFundo.src = cenarioFalas["cenario"][estadoAtual]["imagem"]
     fundo.style.backgroundImage = imagemFundo
+    personagemEsquerda.src = cenarioFalas["cenario"][estadoAtual]["personagem"][0]
+    personagemDireita.src = cenarioFalas["cenario"][estadoAtual]["personagem"][1]
+    personagemDireita.style.opacity = cenarioFalas["cenario"][estadoAtual]["pesonagemOpacidade"]
     botaoOpcao1.innerHTML = cenarioFalas["cenario"][estadoAtual]["opcoes"][0]
     botaoOpcao2.innerHTML = cenarioFalas["cenario"][estadoAtual]["opcoes"][1]
     i=0

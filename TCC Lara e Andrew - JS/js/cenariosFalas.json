@@ -41,7 +41,7 @@
         "numeroDialogos": 4,
         "estados": [1,2],
         "imagem": "img/rua.jpg",
-        "personagem": ["img/khalisto.png", " "]
+        "personagem": ["img/khalisto.png", "img/amanda.png"]
         
     },{
         "comentario": "cenario 1",
@@ -123,8 +123,8 @@
         ],
         "numeroDialogos": 13,
         "estados": [3,4],
-        "imagem": " ",
-        "personagem": ""
+        "imagem": "img/casaAmanda",
+        "personagem": ["img/khalisto.png", "img/amanda.png"]
     },{
         "comentario": "cenario 2",
         "falas": [
@@ -196,7 +196,7 @@
         "numeroDialogos": 11,
         "estados": [5,6],
         "imagem": "img/casaAvo.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/ingrid.png"]
     },{
         "comentario": "cenario 3",
         "falas": [
@@ -243,7 +243,7 @@
         "numeroDialogos": 6,
         "estados": [7,8],
         "imagem": "img/casaAmanda.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/amanda.png"]
     },{
         "comentario": "cenario 4",
         "falas": [
@@ -275,7 +275,7 @@
         "numeroDialogos": 3,
         "estados": [9,10],
         "imagem": "img/casaAmanda.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/amanda.png"]
     },{
         "comentario": "cenario 5",
         "falas": [
@@ -312,7 +312,7 @@
         "numeroDialogos": 4,
         "estados": [11,12],
         "imagem": "img/casaAvo.png",
-        "personagem": ""
+        "personagem": ["img/khalisto.png", "img/ingrid.png"]
     },{
         "comentario": "cenario 6",
         "falas": [
@@ -354,7 +354,7 @@
         "numeroDialogos": 4,
         "estados": [13,14],
         "imagem": "img/casaAvo.png",
-        "personagem": ""
+        "personagem":["img/khalisto.png", "img/ingrid.png"]
     }
     
 ]
