@@ -359,7 +359,7 @@ var  cenarioFalas = {
             "Posso atender.",
             "Posso ignorar."
         ],
-        "numeroDialogos": 4,
+        "numeroDialogos": 5,
         "estados": [13,14],
         "imagem": "img/casaAvo.png",
         "personagem":["img/khalisto.png", "img/ingrid.png"],
@@ -436,13 +436,13 @@ function atualizaTexto(cenarioFalas, i){
     console.log("ATUALIZA TEXTO FUNCIONA")
 }
 function desaparece(cenarioFalas, i){
-    if(cenarioFalas['cenario'][0]['numeroDialogos'] >= i){
+    if(cenarioFalas['cenario'][estadoAtual]['numeroDialogos'] >= i){
         caixaDeDialogo.style.opacity = 1
         botaoNext.style.opacity = 1
         botaoOpcao1.style.opacity = 0
         botaoOpcao2.style.opacity = 0
     }
-    if(cenarioFalas['cenario'][0]['numeroDialogos'] < i){
+    if(cenarioFalas['cenario'][estadoAtual]['numeroDialogos'] < i){
         caixaDeDialogo.style.opacity = 0
         botaoNext.style.opacity = 0
         botaoOpcao1.style.opacity = 1
@@ -452,8 +452,8 @@ console.log("DESAPARECE FUNCIONA")
 }
 botaoNext.addEventListener("click", function(){
     i++
-    atualizaTexto(cenarioFalas, i)
     desaparece(cenarioFalas, i)
+    atualizaTexto(cenarioFalas, i)
     console.log("BOTAO NEXT FUNCIONA")
 })
 botaoOpcao1.addEventListener("click", function(){
