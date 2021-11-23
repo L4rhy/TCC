@@ -401,7 +401,7 @@ dialogo.appendChild(texto)
 const botaoNext = document.createElement("button")
 botaoNext.setAttribute("id", "botaoNext")
 botaoNext.innerHTML = "NEXT"
-lista.appendChild(botaoNext)
+caixaDeDialogo.appendChild(botaoNext)
 
 console.log("CONSTRUIDO DIALOGO")
 
