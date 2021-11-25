@@ -11,7 +11,7 @@ var  cenarioFalas = {
             },
             {
                 "autor": "Khalisto",
-                "frase": "Minha mãe não aceita que eu não acredite no deus dela, não suporta que eu diga que não me sinto bem indo a igreja com ela, não gosta que eu me negue a rezar.",
+                "frase": "Minha mãe não aceita que eu não acredite no seu Deus, não suporta que eu diga que não me sinto bem indo a igreja, nem que eu me negue a rezar",
                 "posicao-balao": [0, 0]
             },
             {
@@ -21,17 +21,12 @@ var  cenarioFalas = {
             },
             {
                 "autor": "Khalisto",
-                "frase": "Eu não aguento mais todo dia ter uma intriga diferente, preciso sair de casa, eu tenho como alugar uma casa só minha, vou fazer isso.",
+                "frase": "Eu não aguento mais todo dia ter uma intriga diferente, preciso sair de casa. Eu tenho como alugar uma casa só minha, vou fazer isso.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Preciso apenas ficar hoje fora de casa e depois planejar isso melhor",
-                "posicao-balao": [0, 0]
-            },
-            {
-                "autor": "Khalisto",
-                "frase": "Preciso apenas ficar hoje fora de casa e depois planejar isso melhor",
+                "frase": "Preciso apenas ficar fora de casa por hoje e depois planejar isso melhor.",
                 "posicao-balao": [0, 0]
             }
         ],
@@ -42,7 +37,7 @@ var  cenarioFalas = {
         "numeroDialogos": 4,
         "estados": [1,2],
         "imagem": "img/rua.jpg",
-        "personagem": ["img/khalisto.png", "img/amanda.png"]
+        "personagem": ["img/khalisto.png", "img/khalisto.png"]
         ,
         "pesonagemOpacidade" : 0
         
@@ -51,17 +46,17 @@ var  cenarioFalas = {
         "falas": [
             {
                 "autor": "Amanda",
-                "frase": "O que ela te fez desta vez?",
+                "frase": "O que ela te fez dessa vez?",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Apenas brigamos porque eu não quis rezar com ela, não foi feio, mas não aguento mais brigas todos os dias",
+                "frase": "Apenas brigamos porque eu não quis rezar com ela novamente, não foi feio, mas não aguento mais brigas todos os dias.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Amanda",
-                "frase": "Eu não sei como você aguenta isso há tanto tempo.",
+                "frase": "Eu não sei como você aguenta isso há tanto tempo",
                 "posicao-balao": [0, 0]
             },
             {
@@ -86,32 +81,32 @@ var  cenarioFalas = {
             },
             {
                 "autor": "Khalisto",
-                "frase": "Hoje eu decidi sair de casa.",
+                "frase": "Hoje eu decidi sair de casa...",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Amanda",
-                "frase": "Você pode ficar aqui comigo.",
+                "frase": "Você pode ficar aqui comigo!",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Não, eu vou para casa e vou me planejar bem, eu tenho condições de morar sozinha, só preciso de um tempo para planejar tudo.",
+                "frase": "Não, eu vou para casa e vou me planejar bem, eu tenho condições de morar sozinha. Apenas preciso de um tempo para planejar tudo.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Amanda",
-                "frase": "Vem passar uns dias comigo e se planeja aqui, você ta mal com essas brigas, não quero que piore.",
+                "frase": "Vêm passar uns dias comigo e se planejar aqui, você está mal com essas brigas, não quero que piore!",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "eu não quero te dar trabalho.",
+                "frase": "Eu não quero te dar trabalho.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Amanda",
-                "frase": "Não é trabalho, ou você vem morar comigo logo ou passar uns dias só até se mudar",
+                "frase": "Não é trabalho, ou você vem morar comigo logo ou passar uns dias só até se mudar.",
                 "posicao-balao": [0, 0]
             },
             {
@@ -134,17 +129,17 @@ var  cenarioFalas = {
         "falas": [
             {
                 "autor": "Khalisto",
-                "frase": "Oi vó",
+                "frase": "Oi Vó!",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Ingrid",
-                "frase": "Olá Ká, por que tá com essa carinha?",
+                "frase": "Olá Khá, por que está com essa carinha?",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Eu e a minha mãe brigamos de novo.",
+                "frase": "Eu e mãe brigamos de novo.",
                 "posicao-balao": [0, 0]
             },
             {
@@ -169,12 +164,12 @@ var  cenarioFalas = {
             },
             {
                 "autor": "Ingrid",
-                "frase": "Vem morar comigo.",
+                "frase": "Vem morar comigo!",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Não acho que seja uma boa ideia vó",
+                "frase": "Não acho que seja uma boa ideia Vó.",
                 "posicao-balao": [0, 0]
             },
             {
@@ -189,7 +184,7 @@ var  cenarioFalas = {
             },
             {
                 "autor": "Ingrid",
-                "frase": "Você não dá trabalho fica aqui comigo, nem que seja por alguns dias até achar outro lugar.",
+                "frase": "Você não dá trabalho, fica aqui comigo! Nem que seja por alguns dias até achar outro lugar.",
                 "posicao-balao": [0, 0]
             }
         ],
@@ -217,7 +212,7 @@ var  cenarioFalas = {
             },
             {
                 "autor": "Khalisto",
-                "frase": "em que ela reclama porque deixo os copos sujos na pia.",
+                "frase": "ou em que ela reclama porque deixo os copos sujos na pia.",
                 "posicao-balao": [0, 0]
             },
             {
@@ -227,12 +222,12 @@ var  cenarioFalas = {
             },
             {
                 "autor": "Khalisto",
-                "frase": "Comecei a duvidar alguns dias atrás se deveria mesmo continuar aqui, achei um lugar para ficar e chamar de meu.",
+                "frase": "Comecei a duvidar alguns dias atrás se deveria mesmo continuar aqui. Acabei encontrando um lugar para ficar e chamar de meu.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Por um lado acho que não sai de um lugar pelas brigas, para vir a outro lugar onde também tem briga todo dia.",
+                "frase": "Por um lado acho que não sai de um lugar pelas brigas, para vir a outro lugar onde também têm briga todo dia.",
                 "posicao-balao": [0, 0]
             },
             {
@@ -255,17 +250,17 @@ var  cenarioFalas = {
         "falas": [
             {
                 "autor": "Khalisto",
-                "frase": "Passei alguns dias com Amanda, me organizei e hoje estou indo para minha própria casa, acabei de me despedir de Amanda.",
+                "frase": "Passei alguns dias com Amanda, me organizei e hoje estou indo para minha própria casa, acabei de me despedir.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Mas estou com saudades de alguns membros da minha família.",
+                "frase": "Mas estou com saudades de alguns membros de minha família.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Quero ir visitar minha avó ou minha irmãzinha antes de me mudar.",
+                "frase": "Quero visitar minha avó e minha irmãzinha antes de me mudar, mas não tenho tempo para ambas as visitas.",
                 "posicao-balao": [0, 0]
             },
             {
@@ -288,17 +283,17 @@ var  cenarioFalas = {
         "falas": [
             {
                 "autor": "Ingrid",
-                "frase": "Está sendo muito bom ter você aqui essas semanas ká.",
+                "frase": "Está sendo muito bom ter você aqui essas semanas Khá.",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Khalisto",
-                "frase": "Está sendo bom para mim também vó, ta se arrumando para sair?",
+                "frase": "Está sendo bom para mim também vó, está se arrumando para sair?",
                 "posicao-balao": [0, 0]
             },
             {
                 "autor": "Ingrid",
-                "frase": "Sim vou ver seus pais, quer vir comigo?",
+                "frase": "Sim, vou ver seus pais, quer vir comigo?",
                 "posicao-balao": [0, 0]
             },
             {
