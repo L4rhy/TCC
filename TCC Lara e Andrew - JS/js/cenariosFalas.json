@@ -120,7 +120,7 @@
         ],
         "numeroDialogos": 13,
         "estados": [3,4],
-        "imagem": "img/casaAmanda",
+        "imagem": "img/casaAmanda.jpg",
         "personagem": ["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 1
     },{
@@ -241,7 +241,7 @@
         ],
         "numeroDialogos": 6,
         "estados": [7,8],
-        "imagem": "img/casaAmanda.png",
+        "imagem": "img/casaAmanda.jpg",
         "personagem": ["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 0
     },{
@@ -274,7 +274,7 @@
         ],
         "numeroDialogos": 3,
         "estados": [9,10],
-        "imagem": "img/casaAmanda.png",
+        "imagem": "img/casaAmanda.jpg",
         "personagem": ["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 0
     },{
@@ -446,7 +446,7 @@
         ],
         "numeroDialogos": 7,
         "estados": [16,16],
-        "imagem": "img/casaAmanda.png",
+        "imagem": "img/casaAmanda.jpg",
         "personagem":["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 1
     },{
@@ -799,10 +799,193 @@
             "FIM.",
             "FIM."
         ],
-        "numeroDialogos": 3,
+        "numeroDialogos": 7,
         "imagem": "img/rua.png",
         "personagem":["img/khalisto.png", "img/maria.png"],
         "pesonagemOpacidade" : 1
+    },{
+        "comentario": "cenario 18",
+        "falas": [
+            {
+                "autor": "Khalisto",
+                "frase": "Sentada na minha cama começo a pensar em como era boa minha vida a alguns anos.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Faz pouco mais de dois anos que essas brigas começaram",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "a verdade é que minha mãe não lidou bem com a morte da própria mãe.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Desde então ela surta e briga com tudo e todos, meu pai não aguentou e foi trabalhar fora.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Eles ainda estão juntos, mas não se veem mais.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Antes de tudo isso ela era uma ótima mãe",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Queria poder ajudar, mas não aguento mais.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Não aguento mais.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Não notei quando comecei a chorar",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "FIM.",
+            "FIM."
+        ],
+        "numeroDialogos": 8,
+        "imagem": "img/casaMae.png",
+        "personagem":["img/khalisto.png", "img/maria.png"],
+        "pesonagemOpacidade" : 0
+    },{
+        "comentario": "cenario 19",
+        "falas": [
+            {
+                "autor": "Khalisto",
+                "frase": "Nossa conversa não durou muito mais, minha mãe chegou e nós começamos a brigar na frente de Maria.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Queria poder voltar ao tempo onde isso não acontecia.",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "FIM.",
+            "FIM."
+        ],
+        "numeroDialogos": 1,
+        "imagem": "img/casaMae.png",
+        "personagem":["img/khalisto.png", "img/maria.png"],
+        "pesonagemOpacidade" : 0
+    },{
+        "comentario": "cenario 20",
+        "falas": [
+            {
+                "autor": "Maria",
+                "frase": "Por que você tá com essa cara triste?",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Eu estava com saudades boba",
+                "posicao-balao": [0, 0]
+            },{
+                "autor": "Maria",
+                "frase": "Também estou com saudades, por isso pedi à vovó me trazer para passar o fim de semana aqui.",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "FIM.",
+            "FIM."
+        ],
+        "numeroDialogos": 1,
+        "imagem": "img/casaAvo.png",
+        "personagem":["img/khalisto.png", "img/maria.png"],
+        "pesonagemOpacidade" : 1
+    },{
+        "comentario": "cenario 21",
+        "falas": [
+            {
+                "autor": "Khalisto",
+                "frase": "Não sabemos o que vovó tem ainda, mas ela começou a passar mal no meio do almoço de família.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Ao chegar no hospital eu e minha mãe conversamos.",
+                "posicao-balao": [0, 0]
+            },{
+                "autor": "Khalisto",
+                "frase": "Eu disse pela centésima vez que ela deveria fazer terapia.",
+                "posicao-balao": [0, 0]
+            },{
+                "autor": "Khalisto",
+                "frase": "Ela finalmente aceitou.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Pediu para eu voltar para casa.",
+                "posicao-balao": [0, 0]
+            },{
+                "autor": "Khalisto",
+                "frase": "Eu disse que não vou voltar mais, mas que posso manter contato.",
+                "posicao-balao": [0, 0]
+            },{
+                "autor": "Khalisto",
+                "frase": "Foi um tipo de cessar fogo.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Agora estamos na casa dela, viemos aqui depois de sair do hospital.",
+                "posicao-balao": [0, 0]
+            },{
+                "autor": "Khalisto",
+                "frase": "Estou preocupada com minha avó",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "FIM.",
+            "FIM."
+        ],
+        "numeroDialogos": 8,
+        "imagem": "img/casaMae.png",
+        "personagem":["img/khalisto.png", "img/maria.png"],
+        "pesonagemOpacidade" : 0
+    },{
+        "comentario": "cenario 22",
+        "falas": [
+            {
+                "autor": "Khalisto",
+                "frase": "Me sinto culpada.",
+                "posicao-balao": [0, 0]
+            },
+            {
+                "autor": "Khalisto",
+                "frase": "Saberia a horas que minha avó está internada se tivesse atendido o telefone.",
+                "posicao-balao": [0, 0]
+            },{
+                "autor": "Khalisto",
+                "frase": "Espero chegar ao hospital logo.",
+                "posicao-balao": [0, 0]
+            }
+        ],
+        "opcoes": [
+            "FIM.",
+            "FIM."
+        ],
+        "numeroDialogos": 2,
+        "imagem": "img/rua.png",
+        "personagem":["img/khalisto.png", "img/maria.png"],
+        "pesonagemOpacidade" : 0
     }
     
 ]
