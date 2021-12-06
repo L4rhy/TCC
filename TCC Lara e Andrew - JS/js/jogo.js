@@ -749,7 +749,7 @@ var  cenarioFalas = {
             "FIM."
         ],
         "numeroDialogos": 3,
-        "imagem": "img/rua.png",
+        "imagem": "img/casaAmanda.jpg",
         "personagem":["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 0
     },{
