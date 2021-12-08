@@ -66,8 +66,9 @@ body{
 }
 #personagemDireita{
     position: absolute;
-    width: 30%;
+    width: 32%;
     bottom: 0%;
+    right: 8%;
 }
 /*~~~~ fim tela*/
 
