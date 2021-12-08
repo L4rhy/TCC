@@ -6,22 +6,27 @@ body{
 
             
 /* tela*/
-    .box {
-        background-color: #ffffff85;
+    .box { 
+        background-image: url("../Img/capa.png");
+        background-repeat: no-repeat;
+        background-size: contain;
         width: 90%;
         height: 80%;
         margin: auto;
-        padding-top: 18%;
+        padding-top: 40%;
         margin-top: 3%;
+        position: relative;
     }
+    
 /*~~~~fim tela*/
                 
                 
 /* botões principais*/
     .buttonsgrupo {
-        margin-top: 10%;    
+        margin-top: -5%;    
         display: flex;
         justify-content: center;
+        position: relative;
     } 
                 
     .hist, .play, .comojogar{
