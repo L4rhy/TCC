@@ -122,7 +122,7 @@ var  cenarioFalas = {
         "numeroDialogos": 13,
         "estados": [3,4],
         "imagem": "img/casaAmanda.jpg",
-        "personagem": ["img/khalisto.png", "img/amanda.jpg"],
+        "personagem": ["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 1
     },{
         "comentario": "cenario 2",
@@ -243,7 +243,7 @@ var  cenarioFalas = {
         "numeroDialogos": 6,
         "estados": [7,8],
         "imagem": "img/casaAmanda.jpg",
-        "personagem": ["img/khalisto.png", "img/amanda.jpg"],
+        "personagem": ["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 0
     },{
         "comentario": "cenario 4",
@@ -276,7 +276,7 @@ var  cenarioFalas = {
         "numeroDialogos": 3,
         "estados": [9,10],
         "imagem": "img/casaAmanda.jpg",
-        "personagem": ["img/khalisto.png", "img/amanda.jpg"],
+        "personagem": ["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 0
     },{
         "comentario": "cenario 5",
@@ -395,7 +395,7 @@ var  cenarioFalas = {
         "numeroDialogos": 4,
         "estados": [15,15],
         "imagem": "img/rua.png",
-        "personagem":["img/khalisto.png", "img/amanda.jpg"],
+        "personagem":["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 0
     },{
         "comentario": "cenario 8",
@@ -448,7 +448,7 @@ var  cenarioFalas = {
         "numeroDialogos": 7,
         "estados": [16,16],
         "imagem": "img/casaAmanda.jpg",
-        "personagem":["img/khalisto.png", "img/amanda.jpg"],
+        "personagem":["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 1
     },{
         "comentario": "cenario 9",
@@ -718,7 +718,7 @@ var  cenarioFalas = {
         ],
         "numeroDialogos": 9,
         "imagem": "img/rua.png",
-        "personagem":["img/khalisto.png", "img/amanda.jpg"],
+        "personagem":["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 1
     },{
         "comentario": "cenario 16",
@@ -750,7 +750,7 @@ var  cenarioFalas = {
         ],
         "numeroDialogos": 3,
         "imagem": "img/casaAmanda.jpg",
-        "personagem":["img/khalisto.png", "img/amanda.jpg"],
+        "personagem":["img/khalisto.png", "img/amanda.png"],
         "pesonagemOpacidade" : 0
     },{
         "comentario": "cenario 17",
